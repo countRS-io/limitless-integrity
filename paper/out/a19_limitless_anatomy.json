@@ -1,0 +1,75 @@
+{
+  "result": {
+    "9Ns5": {
+      "first_60_first_fills": [
+        "2026-02-18 18:21:43+00:00",
+        "2026-02-18 18:22:55+00:00"
+      ],
+      "first_fill": "2026-02-18 18:21:43+00:00",
+      "flat_markets_share": 0.97820013234321,
+      "inside_pairs": 5363,
+      "last_fill": "2026-09-28 13:57:03+00:00",
+      "maker_share_of_wallet_volume_median": 0.4998094558332965,
+      "maker_share_of_wallet_volume_range": [
+        0.4494722519832238,
+        0.5698460911219546
+      ],
+      "markets": 27202,
+      "net_over_gross": 0.001003884733998053,
+      "rewards_in_advertised_windows": {
+        "3_months_to_2026-06-09": 6226195.738986,
+        "4_months_to_2026-07-23": 7717253.318166999
+      },
+      "second_60_first_fills": [
+        "2026-05-11 20:41:59+00:00",
+        "2026-05-14 13:49:29+00:00"
+      ],
+      "top10_pairs_share_of_inside": 0.015996946067503123,
+      "top1_pair_share_of_inside": 0.0018200843283815943,
+      "wallets_both_maker_and_taker": 120,
+      "wallets_traded": 120,
+      "wallets_trading_in_september": 119
+    },
+    "AE2J": {
+      "first_fill": "2025-09-15 21:39:23+00:00",
+      "first_fills_by_day": {
+        "2025-09-15": 3,
+        "2025-09-16": 11,
+        "2025-09-17": 20,
+        "2025-09-18": 21,
+        "2025-11-08": 5
+      },
+      "flat_markets_share": 0.959628252788104,
+      "last_fill": "2026-09-28 13:24:25+00:00",
+      "maker_share_of_wallet_volume_median": 0.5065842255782269,
+      "maker_share_of_wallet_volume_range": [
+        0.47780338187479815,
+        0.6299485069453642
+      ],
+      "markets": 13450,
+      "net_over_gross": 0.01284792178635373,
+      "wallets_both_maker_and_taker": 60,
+      "wallets_traded": 60
+    },
+    "average_fill_usdc": {
+      "9Ns5": 303.96161336627785,
+      "everyone_else": 94.42160595000931
+    },
+    "price_10_to_90_cents_share": {
+      "9Ns5": 0.9972377170270166,
+      "everyone_else": 0.5878912584791194
+    },
+    "taker_fees": {
+      "4_to_31_May": {
+        "9Ns5": 3670808.236952803,
+        "venue": 4635346.087937947
+      },
+      "from_2026-02-16": {
+        "9Ns5": 11835470.792679673,
+        "venue": 15799809.83226504
+      }
+    }
+  },
+  "run_at": "2026-10-05T12:44:19.337111+00:00",
+  "script": "a19_limitless_anatomy"
+}

@@ -1,0 +1,281 @@
+[/]
+
+Packs
+ [/packs]Markets
+ [/]Leaderboard
+ [/leaderboard]Feed
+ [/feed]
+Staking
+Earn yield on LMTS
+
+ [/staking]Limitless Points
+Learn about rewards
+
+ [/blog/points-season-4-announcement]Groups
+Trade together, rank together
+
+ [/groups]Challenges
+Team competitions
+
+ [/challenges]Limitless Incentives
+Earn rewards providing liquidity
+
+ [/rewards]
+
+Will BTC hit $150k?
+
+ [/search]
+
+ [/]
+
+All stories [/blog]
+THE HUDDLE. Issue 01. Jun 30th
+Hey everyone,
+We’ve had a lot to put in front of you this month, so we’re starting The Huddle: a monthly letter where you get the full picture in one place.
+The short version of June: we shipped Packs and User-Generated Markets, made trading faster, launched a $1M WC2026 challenge, and signed NAVI and Clarence Seedorf.
+
+Limitless·Jun 30, 2026·10 min read
+
+Hey everyone,
+
+We’ve had a lot to put in front of you this month, so we’re starting The Huddle: a monthly letter where you get the full picture in one place.
+
+The short version of June: we shipped Packs and User-Generated Markets, made trading faster, launched a $1M WC2026 challenge, and signed NAVI and Clarence Seedorf.
+
+We also found a single account manufacturing fake volume and removed all of it from our public stats.
+
+We’ll cover the wins, the numbers, and the messy parts, all in order.
+
+Here we go.
+
+What we shipped in June
+
+June was a big month for builders and traders on Limitless. The throughline: making the platform faster, safer, and more open to everyone.
+
+Packs are here. [https://limitless.exchange/packs?r=limitless_finance] A brand-new way to predict: curated bundles of 2–3 picks across different markets [https://x.com/trylimitless/status/2062922014151659618?s=20], with a single buy-in and a multiplier up to 15x. Stake anywhere from $1 to $50, and if every leg lands, you win. Simple, fast, and a lot of fun.
+
+You can now create your own markets [https://limitless.exchange/create-market?entryPoint=filter_sidebar&r=limitless_finance]. We opened the door to user-generated markets, so the community can now propose and fund their own instead of just trading ours. In the first month of testing alone, 162 creators launched 1,611 markets generating $2.2M in volume — and that was just the beta.
+
+A faster, more transparent trading engine [https://x.com/trylimitless/status/2065321450354159639?s=20]. Traders now get real-time signals the moment an order matches — before it even settles on-chain — plus instant confirmations for fill-or-kill orders. We added self-trade prevention so you don't accidentally trade against yourself, and smarter handling for high-traffic markets.
+
+We deepened liquidity across football matches, props, and short-term price markets — tighter spreads, more depth on the book.
+
+Built for developers and partners. We standardized on stronger HMAC authentication, expanded our real-time WebSocket data across all four SDKs (TypeScript, Python, Go, Rust), and shipped new tools like a public PnL chart, maintenance-status checks, and better order history. We also refreshed our Polymarket migration guide for teams bringing their strategies over.
+
+Limitless Academy [https://academy.limitless.exchange/academies/agents_academy/index.html] is a learning track that takes you from your first trade to running your own trading agent — three courses (Prediction markets, trading via API, trading with Agents) plus a hands-on cohort program.
+
+Clearer docs everywhere. Dozens of clarifications across market statuses, pricing, and resolution rules — small fixes that save integrators real time.
+
+This section exists because the request for open monthly updates came from you, so did this format. If you want something changed, this is where it gets answered.
+
+On the Pitch
+
+This month, Limitless partnered with NAVI [https://x.com/natusvincere] - one of the most recognised names in esports .
+
+This month, Limitless partnered with NAVI — one of the most recognised names in esports.
+A lot of us fell in love with Counter-Strike because of NAVI. They're the legacy and the future of the game at once, and this is our first move into esports markets.
+
+Here's what it actually means for you:
+
+markets on match outcomes, tournament placements, and roster moves you won't find on other exchanges
+signed merch
+campaigns built around the organization
+unique content across our social platforms
+
+We’re working on bringing more to the esport.
+
+We signed Clarence Seedorf [https://x.com/lmts_football/status/2065469217546133931?s=20] as a Limitless ambassador.
+
+We're football fans ourselves — we love this game, and we remember it across eras: the colours, the rivalries, the moments that still hurt. Clarence was part of legendary Milan, Ajax, and Inter sides at their peak. Four Champions League titles with three different clubs. That's not coincidence, that's class.
+
+He's everything we love about the game: a leader and a tactical mind who could also score the kind of goal you don't forget. The moment we had a chance to bring him into our corner, we took it.
+
+Road to a million [https://x.com/trylimitless/status/2065809210374291627?s=20]. Unprecedented campaign. We ran multiple campaigns in the past but this one is special. If you love football as much as we do, check this out yourself.
+
+Something we just thought you'd like
+
+Not every update needs a reason attached to it. This one's just because we think it's good:
+
+Limitless Quiz: test yourself on football's greatest moments, then put that instinct to work on real 2026 predictions: https://wc.limitless.exchange/ [https://wc.limitless.exchange/]
+
+Smoother buying UX
+
+Market integrity report
+
+Recently, on-chain sleuths in the Limitless community together with our transaction analysis noticed highly unusual activity on the Limitless DeFi exchange.
+
+An on-chain actor(s) deployed a complex strategy comprised of multiple smart contract operations to artificially inflate their account volumes, which we consider to be an abuse of Limitless points program and our Terms of Service.
+
+Limitless operates a hybrid CLOB / AMM marketplace. For newer and more experimental contract types that are yet to form deep liquidity, we launch them as AMM markets to gauge user demand and feedback with the goal of moving them to CLOB later once demand has been tested.
+
+Since AMM markets are fully on-chain, anybody can call the addFunding() function to provide liquidity.
+
+The on-chain actor(s) in question utilized Morpho flash loans [https://docs.morpho.org/learn/concepts/flashloans/] - “Flash loans are a powerful DeFi primitive that allow users to borrow assets without collateral, as long as the borrowed amount is returned within the same transaction block.” - in order to form significant capital to execute add liquidity, buy/sell transactions which target only the users provided liquidity as a form of wash trading, remove liquidity and repay the loan inside one transaction block.
+
+This behaviour generated $2.7B in notional volume across more than 1000 trades.
+
+After a community report, we conducted a full investigation into the behaviour, issued several market integrity actions and have now developed monitoring systems to prevent this and similar behaviour from happening again.
+
+The market integrity actions:
+
+Identified the accounts involved, issued bans and cut Limitless points rewards
+Stripped the manipulated volume from public market data
+Developed and introduced new monitoring systems to catch abuse
+
+DeFi protocols are often subject to acts of market manipulation including wash trading by industrial incentive farmers or other malicious actors. Many in the industry choose to turn a blind eye, as a result of the potential (or at least short term) enterprise value that inflated volume can bring, especially in a fast growing industry. That said, on-chain markets are reaching a key inflection point and approaching maturity and mass adoption. We believe that instead of shying away from instances such as these, developers should tackle them head on and use them as a means to demonstrate the power of the technology.
+
+Transparency is a key value proposition of DeFi, and every action users take on-chain is publicly recorded and traceable. Thanks to a combination of our community, the underlying blockchain and smart contract technology, and our internal analysis we have been able to identify the actors in question, issue swift integrity actions as described above and filter the inflated volume activity from our public volume data endpoints.
+
+Full transaction breakdown: 309 wallets/profiles [https://app.notion.com/p/limitlesslabs/Market-integrity-report-309-wallets-profiles-38f04e33c4b980798c98e1a043f5a970?source=copy_link]
+
+That’s all wallets involved into a flash-loan trading, acting both like LP providers and traders on FPMM markets in same-block atomic transaction
+
+Example of the transaction:
+
+https://basescan.org/tx/0xe19542e6b7f50638eea02c43eca08f888f0e3b8848f55af727f92243caed443c#eventlog [https://basescan.org/tx/0xe19542e6b7f50638eea02c43eca08f888f0e3b8848f55af727f92243caed443c#eventlog]
+
+The attack: self-funded wash trading
+
+The whole thing is one atomic transaction where the same account acts as both the liquidity provider and the trader, funded by a flash loan so no real capital is ever at risk.
+
+The cycle (account 0x286B..., orchestrated by 0xBe84...):
+
+Flash loan ~$1,121,110 USDC from Morpho (log 398).
+Add liquidity to the FPMM market — now this account owns ~100% of the pool (logs 404–412).
+Buy outcome tokens: $9,999 in, fee 39.996 USDC → FPMMBuy event (log 422).
+Sell the same tokens back: $9,919 out, fee 39.836 USDC → FPMMSell event (log 431).
+Remove liquidity — and recover the fees (collateralRemovedFromFeePool = 79.82 USDC, log 437).
+Merge/redeem back to USDC and repay the flash loan (logs 444–452).
+
+Why it's free and risk-free
+
+Fees come back to them. The buy+sell fees (39.996 + 39.836 ≈ 79.83 USDC) flow into the pool's fee accumulator. Since they're the only LP, removing liquidity returns exactly those fees (79.823918). Net fee cost ≈ zero.
+No price risk. They trade against their own liquidity, so the slippage they "lose" on the buy/sell round-trips back to them as the LP. Position opened and closed in the same block.
+No capital needed. The flash loan supplies the entire ~$1.12M; it's borrowed and repaid atomically. The end balance just covers repayment (1,121,110.78 returned).
+
+The result
+
+The platform records a FPMMBuy and a FPMMSell — ~$20K of "trade volume" — while the attacker's actual cost is gas only. Repeat the loop and you manufacture arbitrary volume / fake activity for incentive farming without exposure.
+
+The core vulnerability: the FPMM lets the LP and the trader be the same address, and trading fees are recoverable by the LP on withdrawal. That makes self-trading economically neutral.
+
+For data reporters:
+
+Dune templates to remove the flash-loan volume from Limitless stats
+
+Option A, more granular:
+Exclude malicious wallets from AMM (FPMM) trades using dataset dune.limitless_exchange.dataset_flashloan_wallets
+
+select ...
+FROM base.logs b
+WHERE b.topic0 IN (
+ 0x4f62630f51608fc8a7603a9391a5101e58bd7c276139366fc107dc3b67c3dcf8,
+ 0xadcf2a240ed9300d681d9a3f5382b6c1beed1b7e46643e0c7b42cbe6e2d766b4
+)
+and (tx_from in (select wallet from dune.limitless_exchange.dataset_flashloan_wallets)
+ or
+ tx_to in (select wallet from dune.limitless_exchange.dataset_flashloan_wallets)
+)
+
+Option B, lightweight:
+Deduct resulting volume from your reports using daily volume of the malicious wallets from dune.limitless_exchange.dataset_flashloan_daily_volume
+
+with amm_volume AS (
+ SELECT
+ DATE_TRUNC('day', b.block_time) AS trade_day,
+ SUM(
+ bytearray_to_uint256(substr(b.DATA, 65, 32)) / 1e6
+ ) AS volume
+ FROM base.logs b
+ WHERE b.topic0 IN (
+ 0x4f62630f51608fc8a7603a9391a5101e58bd7c276139366fc107dc3b67c3dcf8,
+ 0xadcf2a240ed9300d681d9a3f5382b6c1beed1b7e46643e0c7b42cbe6e2d766b4
+ )
+ and DATE_TRUNC('day', b.block_time) between DATE('2026-04-01') and DATE('2026-06-01')
+ GROUP BY 1
+)
+
+select
+ av.trade_day,
+ av.volume as total,
+ fv.volume_contracts as falshloan_volume,
+ case when fv.volume_contracts is null then av.volume
+ else av.volume - fv.volume_contracts end as clean_amm_volume
+from amm_volume av 
+left join dune.limitless_exchange.dataset_flashloan_daily_volume fv
+ on av.trade_day = DATE(fv.trade_day)
+order by 1
+
+Drawing a line, in writing
+
+Separately, and this one's been a long time coming, we formalised and published our policy on markets that will never exist on Limitless. Assassination, harm, and terrorism markets - an absolute list, no legal pathway around it, no exceptions for clever framing. It's been true since day one. It just wasn't written down publicly until now.
+
+Limitless runs on collective intelligence, but not every question should be a market, so we don't turn every one into a market.
+
+And the obvious thing we should say out loud: these markets carry real risk. You can lose some or all of what you put in. Being right before doesn't mean you'll be right next time. Better you hear that from us than learn it the expensive way.
+
+That's Issue 01. See you in the next one and in the chat before then.
+
+We're not going to pretend this format is finished — it'll change as we figure out what's actually useful to you versus what just feels good to write. But the principle behind it isn't going anywhere: every month, in one place, you get the real numbers, the real mistakes, the real decisions, before you have to go looking for them.
+
+If something here raised more questions than it answered, good. Better that than a letter that reads clean because it left things out. Find us in the chat — tell us what's missing, tell us what was unclear. This letter only works in one direction if you write back in the other.
+See you on the pitch and in the chat, long before the next one.
+
+Limitless
+24 stories on Limitless.
+
+More to read
+Sep 2, 2026·6 min
+Introducing Limitless MCP - the FIRST official prediction market MCP
+Connect Limitless to ChatGPT, Claude, Grok & more to research markets & news, track your performance
+
+Limitless
+ [/blog/introducing-limitless-mcp-trade-prediction-markets-through-chat-gpt-claude-or-grok]Sep 1, 2026·5 min
+THE HUDDLE. Issue 03. August 31th
+Hey everyone, August was about giving traders the tools to prove what they already know: we shipped upgraded Profiles with time-and-category PnL filtering, dedicated Esports market pages, Trade Alerts, and partnered…
+
+Limitless
+ [/blog/the-huddle-issue-03-august-31th]Jul 31, 2026·7 min
+THE HUDDLE. Issue 02. July 31th
+July was a different kind of month: we shipped KIX, the PnL Leaderboard, a new Referral Program, Flexible Market Resolutions, integrated Chat with in-app trading, and Limitless Research. We were in Tokyo and Seoul.
+
+Limitless
+ [/blog/the-huddle-issue-02-july-31th]
+
+Explore by categories
+
+Crypto [/crypto]
+Sport [/sport]
+Esports [/esports]
+NAVI [/navi]
+Finance [/finance]
+Politics [/politics]
+Korean Market [/korean-market]
+中文预测专区 [/chinese-prediction-section]
+
+Social
+
+X (Twitter) [https://x.com/trylimitless]
+LinkedIn [https://www.linkedin.com/company/limitlesslabs]
+Discord [https://t.co/doQwSau6RJ]
+Farcaster [https://warpcast.com/~/channel/limitless]
+Instagram [https://www.instagram.com/trylimitless.football/]
+Mail [mailto:help@limitless.network]
+
+Company
+
+Feed [/feed]
+Groups [/groups]
+Leaderboard [/leaderboard]
+$LMTS Token [/token]
+Docs [https://docs.limitless.exchange]
+Changelog [https://docs.limitless.exchange/changelog]
+Blog [/blog]
+AI Info [/ai-info]
+llms.txt [/llms.txt]
+Support
+
+Terms of Service [https://docs.limitless.exchange/user-guide/terms-of-service]
+Privacy Policy [https://docs.limitless.exchange/user-guide/privacy-policy]
+
+2026 Limitless Exchange

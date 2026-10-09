@@ -1,0 +1,180 @@
+{
+  "result": {
+    "9Ns5": {
+      "monthly": {
+        "2026-02": {
+          "fees_charged_as_maker": 1265461.22,
+          "fees_charged_as_taker": 604165.4,
+          "maker_fee_refunds_usdc_part": 618297.27,
+          "net_cost": 602300.99,
+          "rebates_and_rewards": 1864.4,
+          "traded_usdc": 124182751.93
+        },
+        "2026-03": {
+          "fees_charged_as_maker": 3224571.67,
+          "fees_charged_as_taker": 1545011.4,
+          "maker_fee_refunds_usdc_part": 1574429.91,
+          "net_cost": 979900.9,
+          "rebates_and_rewards": 565110.5,
+          "traded_usdc": 317089339.24
+        },
+        "2026-04": {
+          "fees_charged_as_maker": 1335643.42,
+          "fees_charged_as_taker": 1302697.88,
+          "maker_fee_refunds_usdc_part": 525375.48,
+          "net_cost": 231300.28,
+          "rebates_and_rewards": 1071397.6,
+          "traded_usdc": 95749972.19
+        },
+        "2026-05": {
+          "fees_charged_as_maker": 4997531.2,
+          "fees_charged_as_taker": 3963770.52,
+          "maker_fee_refunds_usdc_part": 2066804.19,
+          "net_cost": 688475.07,
+          "rebates_and_rewards": 3275295.45,
+          "traded_usdc": 350139673.77
+        },
+        "2026-06": {
+          "fees_charged_as_maker": 3955152.57,
+          "fees_charged_as_taker": 2834776.82,
+          "maker_fee_refunds_usdc_part": 1669917.4,
+          "net_cost": 279969.73,
+          "rebates_and_rewards": 2554807.1,
+          "traded_usdc": 277188253.72
+        },
+        "2026-07": {
+          "fees_charged_as_maker": 1265422.82,
+          "fees_charged_as_taker": 956748.86,
+          "maker_fee_refunds_usdc_part": 518304.25,
+          "net_cost": 112275.98,
+          "rebates_and_rewards": 844472.88,
+          "traded_usdc": 84698700.95
+        },
+        "2026-08": {
+          "fees_charged_as_maker": 640350.06,
+          "fees_charged_as_taker": 486799.1,
+          "maker_fee_refunds_usdc_part": 262657.41,
+          "net_cost": -3103.78,
+          "rebates_and_rewards": 489902.88,
+          "traded_usdc": 42477238.91
+        },
+        "2026-09": {
+          "fees_charged_as_maker": 174444.07,
+          "fees_charged_as_taker": 141500.81,
+          "maker_fee_refunds_usdc_part": 68624.36,
+          "net_cost": 11592.26,
+          "rebates_and_rewards": 129908.55,
+          "traded_usdc": 10549397.34
+        }
+      },
+      "net_cost_per_100_usdc_traded": 0.22292960839296969,
+      "rebates_over_taker_fees": 0.7547447430979238,
+      "totals": {
+        "fees_charged_as_maker": 16858577.02,
+        "fees_charged_as_taker": 11835470.79,
+        "maker_fee_refunds_usdc_part": 7304410.27,
+        "net_cost": 2902711.43,
+        "rebates_and_rewards": 8932759.36,
+        "traded_usdc": 1302075328.06
+      },
+      "wallets": 120
+    },
+    "AE2J": {
+      "monthly": {
+        "2025-09": {
+          "fees_charged_as_maker": 723.48,
+          "fees_charged_as_taker": 505.3,
+          "maker_fee_refunds_usdc_part": 14.95,
+          "net_cost": 495.78,
+          "rebates_and_rewards": 9.52,
+          "traded_usdc": 47374.34
+        },
+        "2025-10": {
+          "fees_charged_as_maker": 47.44,
+          "fees_charged_as_taker": 2.58,
+          "maker_fee_refunds_usdc_part": 13.12,
+          "net_cost": -20.69,
+          "rebates_and_rewards": 23.26,
+          "traded_usdc": 9223.91
+        },
+        "2025-11": {
+          "fees_charged_as_maker": 260925.59,
+          "fees_charged_as_taker": 255139.55,
+          "maker_fee_refunds_usdc_part": 97599.12,
+          "net_cost": 253473.06,
+          "rebates_and_rewards": 1666.48,
+          "traded_usdc": 18928581.1
+        },
+        "2025-12": {
+          "fees_charged_as_maker": 290976.65,
+          "fees_charged_as_taker": 212902.3,
+          "maker_fee_refunds_usdc_part": 109559.15,
+          "net_cost": 212799.29,
+          "rebates_and_rewards": 103.01,
+          "traded_usdc": 20547700.79
+        },
+        "2026-01": {
+          "fees_charged_as_maker": 1338303.97,
+          "fees_charged_as_taker": 690967.57,
+          "maker_fee_refunds_usdc_part": 524426.4,
+          "net_cost": 690920.78,
+          "rebates_and_rewards": 46.79,
+          "traded_usdc": 132836574.76
+        },
+        "2026-02": {
+          "fees_charged_as_maker": 1706618.5,
+          "fees_charged_as_taker": 848830.23,
+          "maker_fee_refunds_usdc_part": 739829.42,
+          "net_cost": 848522.67,
+          "rebates_and_rewards": 307.56,
+          "traded_usdc": 169252611.94
+        },
+        "2026-03": {
+          "fees_charged_as_maker": 9188.25,
+          "fees_charged_as_taker": 4378.39,
+          "maker_fee_refunds_usdc_part": 4361.61,
+          "net_cost": 3937.08,
+          "rebates_and_rewards": 441.31,
+          "traded_usdc": 923088.74
+        },
+        "2026-07": {
+          "fees_charged_as_maker": 194965.87,
+          "fees_charged_as_taker": 148576.4,
+          "maker_fee_refunds_usdc_part": 79658.63,
+          "net_cost": 30397.38,
+          "rebates_and_rewards": 118179.02,
+          "traded_usdc": 12930319.4
+        },
+        "2026-08": {
+          "fees_charged_as_maker": 34810.4,
+          "fees_charged_as_taker": 28276.2,
+          "maker_fee_refunds_usdc_part": 13752.15,
+          "net_cost": 2459.18,
+          "rebates_and_rewards": 25817.02,
+          "traded_usdc": 2110407.51
+        },
+        "2026-09": {
+          "fees_charged_as_maker": 38196.89,
+          "fees_charged_as_taker": 32426.82,
+          "maker_fee_refunds_usdc_part": 14585.28,
+          "net_cost": 10640.91,
+          "rebates_and_rewards": 21785.91,
+          "traded_usdc": 2144664.87
+        }
+      },
+      "net_cost_per_100_usdc_traded": 0.5708788057209039,
+      "rebates_over_taker_fees": 0.07577834094919182,
+      "totals": {
+        "fees_charged_as_maker": 3874757.04,
+        "fees_charged_as_taker": 2222005.33,
+        "maker_fee_refunds_usdc_part": 1583799.84,
+        "net_cost": 2053625.45,
+        "rebates_and_rewards": 168379.88,
+        "traded_usdc": 359730547.38
+      },
+      "wallets": 60
+    }
+  },
+  "run_at": "2026-10-05T12:43:26.072735+00:00",
+  "script": "a11_fee_timeline"
+}

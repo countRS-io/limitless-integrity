@@ -1,0 +1,25 @@
+{
+  "result": {
+    "9Ns5": {
+      "amm_outcome_tokens": 0.0,
+      "amm_trades": 0,
+      "amm_wallets": 0,
+      "on_flashloan_list": 0,
+      "wallets": 120
+    },
+    "AE2J": {
+      "amm_outcome_tokens": 0.0,
+      "amm_trades": 0,
+      "amm_wallets": 0,
+      "on_flashloan_list": 0,
+      "wallets": 60
+    },
+    "flashloan_last_day_over_1M_shares": {
+      "day": "2026-05-15",
+      "shares": 4345243.421132
+    },
+    "flashloan_list_addresses": 328
+  },
+  "run_at": "2026-10-05T12:44:27.678476+00:00",
+  "script": "a19_amm_clusters"
+}

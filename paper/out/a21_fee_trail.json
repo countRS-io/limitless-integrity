@@ -1,0 +1,316 @@
+{
+  "result": {
+    "ledger": {
+      "9Ns5": {
+        "anyone_else_out_top": {
+          "0x5fb33b095c6e739be19364ab408cd8f102262bb6": 30.0,
+          "0x7e07a9148e9149e430c6412b79a675028595ff1f": 191142.0,
+          "0x8f10b468b06c6fd214b65f87778827f7d113f996": 179.62,
+          "0x9008d19f58aabd9ed0d60971565aa8510560ab41": 158.36,
+          "0xe3832e74f6058627b8eefdfa4b00c6f45a66c2df": 2.51
+        },
+        "in": {
+          "anyone_else": 18896.24,
+          "cctp_mints": 3507900.53,
+          "conditional_tokens": 54566285.67,
+          "exchanges": 908766971.47,
+          "fee_modules": 7304410.27,
+          "rewards_distributor": 8932759.36
+        },
+        "in_total": 983097223.5466045,
+        "left_in_wallets": 12687.455536723137,
+        "out": {
+          "anyone_else": 191512.5,
+          "cctp_burns": 480627.82,
+          "exchanges": 982412395.78
+        },
+        "out_total": 983084536.0910678
+      },
+      "AE2J": {
+        "anyone_else_out_top": {
+          "0x02bc3ea058fd3aa62c8aa19912f1d0908685e7e1": 100.0,
+          "0x1ba720bea92cbb26d1fe1cd4e352e36a6f834f46": 540935.14,
+          "0x25e5e82f5702a27c3466fe68f14abdbbadfca826": 2995.2,
+          "0x2938633e8a1848ff05b3cd05100ce2a1383fc49d": 4500.0,
+          "0x3619499f510e34122d5d9f6eea1bd6b6c5c8322e": 4500.0,
+          "0x9008d19f58aabd9ed0d60971565aa8510560ab41": 24842.82,
+          "0x9d1b6aba768b02af2b63e8e7397f5a035ed31f7c": 4000.0,
+          "0xa5e0da329ee5aa03f09228e534953496334080f5": 133631.86,
+          "0xcf78bae8ded256b7d19d0f91f5e70bebd2d7cef5": 4000.0,
+          "0xdd292ca903fa688a4994556a9256a1a2867117ca": 4000.0
+        },
+        "in": {
+          "anyone_else": 1240842.08,
+          "cctp_mints": 1239318.72,
+          "conditional_tokens": 83043955.89,
+          "exchanges": 184959139.33,
+          "fee_modules": 1583799.84,
+          "own_wallets": 0.03,
+          "rewards_distributor": 168379.88
+        },
+        "in_total": 272235435.7623513,
+        "left_in_wallets": 4771.447704195976,
+        "out": {
+          "anyone_else": 723735.65,
+          "cctp_burns": 134775.95,
+          "conditional_tokens": 2.0,
+          "exchanges": 271372150.68,
+          "own_wallets": 0.03
+        },
+        "out_total": 272230664.3146471
+      }
+    },
+    "rewards_distributor": {
+      "in_by_source": {
+        "0x666101480cf996b88341c0b4972f7c3af9de049b": 10387752.1,
+        "0x688d1b14c9ace234e177537042a9d006a4369529": 1512905.87
+      },
+      "out_in_advertised_windows": {
+        "3_months_to_2026-06-09": 7577595.436587,
+        "4_months_to_2026-07-23": 9638625.637981
+      },
+      "out_total": 11900657.976548001
+    },
+    "taker_fees": {
+      "9Ns5": 11835470.792679671,
+      "AE2J": 2222005.3301892146,
+      "all": 18243817.35270482
+    },
+    "trail_fifo": {
+      "9Ns5": {
+        "balance_left": 47406.60482699986,
+        "in_tagged_by_sender": {
+          "0x0ec5f85aa1985c1d4113eaf84aff31d9377f3708": 0.0,
+          "0x106f90adb6ec8eacd2dffbfb1ca937bf8dc16bac": 0.0,
+          "0x15b3176ee08c799b5eaad507127455b832596073": 0.0,
+          "0x7e07a9148e9149e430c6412b79a675028595ff1f": 9.5,
+          "0xb87f6670c965be9ecda4f5c8bfa7f5576658ed33": 1953050.69
+        },
+        "tagged_left": 0.0,
+        "to_9Ns5_wallets_tagged": 1318492.442574638,
+        "to_AE2J_wallets_tagged": 634567.7441730669
+      },
+      "b87f": {
+        "balance_left": 2.9103830456733704e-11,
+        "out_tagged_by_destination": {
+          "0x7e07a9148e9149e430c6412b79a675028595ff1f": 9.5,
+          "0xe45b133ddc64be80252b0e9c75a8e74ef280eed6": 0.0,
+          "0xfd78ee919681417d192449715b2594ab58f5d002": 1953050.69
+        },
+        "tagged_left": 3.0091484859440243e-12
+      },
+      "came_back": {
+        "as_funding": 1953060.1867477046,
+        "as_rebates": 7097201.156640722,
+        "share_of_fees_charged": 0.6438041412473284,
+        "share_of_fees_reaching_fee_recipient": 0.8726898910628843,
+        "total": 9050261.343388427
+      },
+      "fee_recipient": {
+        "balance_left": 1.3333647075342014e-08,
+        "fee_inflows": 13715615.791444,
+        "other_inflows": 57692.647161,
+        "out_by_destination": {
+          "0x666101480cf996b88341c0b4972f7c3af9de049b": 10437795.96,
+          "0x7a0b16d55da33fa6bf1174532f33bba1914fac4c": 3287212.31,
+          "0xe1e38fb8e684e594d62b5fd9e1878ae026458e7b": 28734.32,
+          "0xfcf42bfe44b6139b2bb859df59c0650462048489": 19565.85
+        },
+        "out_tagged_by_destination": {
+          "0x666101480cf996b88341c0b4972f7c3af9de049b": 8094140.24,
+          "0x7a0b16d55da33fa6bf1174532f33bba1914fac4c": 2250055.93,
+          "0xe1e38fb8e684e594d62b5fd9e1878ae026458e7b": 26339.16,
+          "0xfcf42bfe44b6139b2bb859df59c0650462048489": 0.0
+        },
+        "tagged_in": 10370535.325401498,
+        "tagged_left": 4.0745362639427185e-10
+      },
+      "rebate_loop": {
+        "rebates_tagged_to": {
+          "9Ns5": 6956909.820403559,
+          "AE2J": 140291.33623716305
+        },
+        "rebates_tagged_to_anyone_else": 951351.7132561613,
+        "rebates_to": {
+          "9Ns5": 8932759.362863999,
+          "AE2J": 168379.87750200002
+        },
+        "rewards_distributor": {
+          "balance_left": 3.200614495657561e-10,
+          "tagged_left": 5.772549070692801e-10
+        },
+        "x6661": {
+          "balance_left": 20206.169614999908,
+          "tagged_left": 15988.653101642103
+        },
+        "x6661_out_tagged_by_destination": {
+          "0x3cb01db2fb1024fed313b320d43573c3118d7d3f": 13357.32,
+          "0xb6eaf1f29a3308276c7e2357c2a15e655dc44474": 29125.27,
+          "0xe895cae6b705d584b03cd82fdd57cf7f8c52fadb": 8048552.87,
+          "0xfcf42bfe44b6139b2bb859df59c0650462048489": 7292.31
+        }
+      },
+      "safe": {
+        "balance_left": 1.0186340659856796e-10,
+        "out_by_destination": {
+          "0x3fd63bc88c3821c1a8f4d95988a4704c9c925dd6": 350000.0,
+          "0x666101480cf996b88341c0b4972f7c3af9de049b": 35212.31,
+          "0xb87f6670c965be9ecda4f5c8bfa7f5576658ed33": 2298000.0,
+          "0xdf2f14ab6995704b6ac07036bf399ca7de4a92e4": 292000.0,
+          "0xfcf42bfe44b6139b2bb859df59c0650462048489": 312000.0
+        },
+        "out_tagged_by_destination": {
+          "0x3fd63bc88c3821c1a8f4d95988a4704c9c925dd6": 0.96,
+          "0x666101480cf996b88341c0b4972f7c3af9de049b": 20176.19,
+          "0xb87f6670c965be9ecda4f5c8bfa7f5576658ed33": 1953060.19,
+          "0xdf2f14ab6995704b6ac07036bf399ca7de4a92e4": 54900.35,
+          "0xfcf42bfe44b6139b2bb859df59c0650462048489": 221918.24
+        },
+        "tagged_left": 7.275957614183426e-12
+      },
+      "x7e07": {
+        "balance_left": 1.2369127944111824e-10,
+        "in_by_source": {
+          "0x289c204b35859bfb924b9c0759a4fe80f610671c": 5002391.52,
+          "0x36b81e076c843af86a7f92d1887b83869c866335": 7191679.71,
+          "0x467079b8b6fac7c5e6ad51df54affc6b290dc148": 799999.8,
+          "0x79e2b9c1f6c9ed1375c93aaf139e6c4537f48523": 31945946.66,
+          "0x95dd8db1c0c066eba8c37cd1c6b4c895500b20f2": 2981000.0,
+          "0xb87f6670c965be9ecda4f5c8bfa7f5576658ed33": 687010.0,
+          "0xdeeb18d95777bf55ea6e85a6ab3d6eb80abb8c24": 7977959.96,
+          "0xf1d9fad6227648e776845dffe7595e9670896ae4": 624800.0
+        },
+        "out_tagged_by_destination": {
+          "0x00436f1ab368dda23cce74055de832fd3fa28d1d": 0.0,
+          "0x04d4e5c89039633b4f44c68184c71bd93f5f0dcf": 0.0,
+          "0x0591535ce16f560f04e6af41c7c5ad3a67d3ca10": 0.0,
+          "0x05b3700244b0032e5039925078b9545ade8ef92f": 0.0,
+          "0x065718819f68bc94becf3ef8fca33ec20c44a25f": 0.0,
+          "0x0689a6b7ac5b2f545b13e3daa188207e89a2eb56": 0.0,
+          "0x08565c99d2126a0246b0c4a407f23f8c3b4187fd": 0.0,
+          "0xfd78ee919681417d192449715b2594ab58f5d002": 9.5
+        },
+        "tagged_left": 0.0
+      }
+    },
+    "trail_pro_rata": {
+      "9Ns5": {
+        "balance_left": 47406.60482699986,
+        "in_tagged_by_sender": {
+          "0x0ec5f85aa1985c1d4113eaf84aff31d9377f3708": 0.0,
+          "0x106f90adb6ec8eacd2dffbfb1ca937bf8dc16bac": 0.0,
+          "0x15b3176ee08c799b5eaad507127455b832596073": 0.0,
+          "0x7e07a9148e9149e430c6412b79a675028595ff1f": 9.53,
+          "0xb87f6670c965be9ecda4f5c8bfa7f5576658ed33": 1953965.87
+        },
+        "tagged_left": 0.0007976592297372015,
+        "to_9Ns5_wallets_tagged": 1319215.831476183,
+        "to_AE2J_wallets_tagged": 634759.5672983614
+      },
+      "b87f": {
+        "balance_left": 2.9103830456733704e-11,
+        "out_tagged_by_destination": {
+          "0x7e07a9148e9149e430c6412b79a675028595ff1f": 9.53,
+          "0xe45b133ddc64be80252b0e9c75a8e74ef280eed6": 0.0,
+          "0xfd78ee919681417d192449715b2594ab58f5d002": 1953965.87
+        },
+        "tagged_left": 2.638294536026986e-227
+      },
+      "came_back": {
+        "as_funding": 1953975.3987745447,
+        "as_rebates": 7096440.954952364,
+        "share_of_fees_charged": 0.6438151681441289,
+        "share_of_fees_reaching_fee_recipient": 0.8727048382506252,
+        "total": 9050416.353726909
+      },
+      "fee_recipient": {
+        "balance_left": 1.3333647075342014e-08,
+        "fee_inflows": 13715615.791444,
+        "other_inflows": 57692.647161,
+        "out_by_destination": {
+          "0x666101480cf996b88341c0b4972f7c3af9de049b": 10437795.96,
+          "0x7a0b16d55da33fa6bf1174532f33bba1914fac4c": 3287212.31,
+          "0xe1e38fb8e684e594d62b5fd9e1878ae026458e7b": 28734.32,
+          "0xfcf42bfe44b6139b2bb859df59c0650462048489": 19565.85
+        },
+        "out_tagged_by_destination": {
+          "0x666101480cf996b88341c0b4972f7c3af9de049b": 8092591.05,
+          "0x7a0b16d55da33fa6bf1174532f33bba1914fac4c": 2251605.11,
+          "0xe1e38fb8e684e594d62b5fd9e1878ae026458e7b": 26339.16,
+          "0xfcf42bfe44b6139b2bb859df59c0650462048489": 0.0
+        },
+        "tagged_in": 10370535.325401498,
+        "tagged_left": 9.762175068317447e-09
+      },
+      "rebate_loop": {
+        "rebates_tagged_to": {
+          "9Ns5": 6956230.261746563,
+          "AE2J": 140210.69320580052
+        },
+        "rebates_tagged_to_anyone_else": 953817.8472367785,
+        "rebates_to": {
+          "9Ns5": 8932759.362863999,
+          "AE2J": 168379.87750200002
+        },
+        "rewards_distributor": {
+          "balance_left": 3.200614495657561e-10,
+          "tagged_left": 2.5638825437712676e-10
+        },
+        "x6661": {
+          "balance_left": 20206.169614999908,
+          "tagged_left": 16186.343495118206
+        },
+        "x6661_out_tagged_by_destination": {
+          "0x3cb01db2fb1024fed313b320d43573c3118d7d3f": 13628.12,
+          "0xb6eaf1f29a3308276c7e2357c2a15e655dc44474": 27366.48,
+          "0xe895cae6b705d584b03cd82fdd57cf7f8c52fadb": 8050258.8,
+          "0xfcf42bfe44b6139b2bb859df59c0650462048489": 7324.8
+        }
+      },
+      "safe": {
+        "balance_left": 1.0186340659856796e-10,
+        "out_by_destination": {
+          "0x3fd63bc88c3821c1a8f4d95988a4704c9c925dd6": 350000.0,
+          "0x666101480cf996b88341c0b4972f7c3af9de049b": 35212.31,
+          "0xb87f6670c965be9ecda4f5c8bfa7f5576658ed33": 2298000.0,
+          "0xdf2f14ab6995704b6ac07036bf399ca7de4a92e4": 292000.0,
+          "0xfcf42bfe44b6139b2bb859df59c0650462048489": 312000.0
+        },
+        "out_tagged_by_destination": {
+          "0x3fd63bc88c3821c1a8f4d95988a4704c9c925dd6": 239.31,
+          "0x666101480cf996b88341c0b4972f7c3af9de049b": 22173.49,
+          "0xb87f6670c965be9ecda4f5c8bfa7f5576658ed33": 1953975.4,
+          "0xdf2f14ab6995704b6ac07036bf399ca7de4a92e4": 54670.01,
+          "0xfcf42bfe44b6139b2bb859df59c0650462048489": 220546.9
+        },
+        "tagged_left": 6.548361852765083e-11
+      },
+      "x7e07": {
+        "balance_left": 1.2369127944111824e-10,
+        "in_by_source": {
+          "0x289c204b35859bfb924b9c0759a4fe80f610671c": 5002391.52,
+          "0x36b81e076c843af86a7f92d1887b83869c866335": 7191679.71,
+          "0x467079b8b6fac7c5e6ad51df54affc6b290dc148": 799999.8,
+          "0x79e2b9c1f6c9ed1375c93aaf139e6c4537f48523": 31945946.66,
+          "0x95dd8db1c0c066eba8c37cd1c6b4c895500b20f2": 2981000.0,
+          "0xb87f6670c965be9ecda4f5c8bfa7f5576658ed33": 687010.0,
+          "0xdeeb18d95777bf55ea6e85a6ab3d6eb80abb8c24": 7977959.96,
+          "0xf1d9fad6227648e776845dffe7595e9670896ae4": 624800.0
+        },
+        "out_tagged_by_destination": {
+          "0x00436f1ab368dda23cce74055de832fd3fa28d1d": 0.0,
+          "0x04d4e5c89039633b4f44c68184c71bd93f5f0dcf": 0.0,
+          "0x0591535ce16f560f04e6af41c7c5ad3a67d3ca10": 0.0,
+          "0x05b3700244b0032e5039925078b9545ade8ef92f": 0.0,
+          "0x065718819f68bc94becf3ef8fca33ec20c44a25f": 0.0,
+          "0x0689a6b7ac5b2f545b13e3daa188207e89a2eb56": 0.0,
+          "0x08565c99d2126a0246b0c4a407f23f8c3b4187fd": 0.0,
+          "0xfd78ee919681417d192449715b2594ab58f5d002": 9.53
+        },
+        "tagged_left": 0.0
+      }
+    }
+  },
+  "run_at": "2026-10-05T12:44:40.303102+00:00",
+  "script": "a21_fee_trail"
+}

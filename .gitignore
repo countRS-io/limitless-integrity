@@ -1,0 +1,14 @@
+data
+data/
+*.parquet
+__pycache__/
+*.pyc
+.env
+.venv/
+*.progress.json
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz

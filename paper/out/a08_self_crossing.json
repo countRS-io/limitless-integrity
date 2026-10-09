@@ -1,0 +1,73 @@
+{
+  "result": {
+    "9Ns5": {
+      "flat": {
+        "counted_once": {
+          "flat_markets_share": 0.9669509594882729,
+          "net_over_gross": 0.002004540304496111
+        },
+        "flat_markets_share": 0.97820013234321,
+        "markets": 27202,
+        "net_over_gross": 0.0010038847339980527
+      },
+      "inside_share": 0.5896013926714655,
+      "internal_share_of_group_volume": 0.9967833323979987,
+      "per_wallet": {
+        "flat_share": 0.8974176968527912,
+        "flat_share_by_volume": 0.9601989169183545,
+        "net_over_gross": 0.02097721285801373,
+        "positions": 812879
+      },
+      "touch_share": 0.5915040646326214,
+      "wallets": 120
+    },
+    "AE2J": {
+      "flat": {
+        "counted_once": {
+          "flat_markets_share": 0.9496654275092937,
+          "net_over_gross": 0.025311811564975462
+        },
+        "flat_markets_share": 0.959628252788104,
+        "markets": 13450,
+        "net_over_gross": 0.01284792178635373
+      },
+      "inside_share": 0.14198213516833114,
+      "internal_share_of_group_volume": 0.9701094064769379,
+      "per_wallet": {
+        "flat_share": 0.7540176821567005,
+        "flat_share_by_volume": 0.9014178526703829,
+        "net_over_gross": 0.05334662888225556,
+        "positions": 275532
+      },
+      "touch_share": 0.14635682761180036,
+      "wallets": 60
+    },
+    "limitless": {
+      "contracts": 3221637393.393853,
+      "self_share": 0.0015544259149616797
+    },
+    "limitless_top120_excl_clusters": {
+      "flat": {
+        "counted_once": {
+          "flat_markets_share": 0.25100549946646966,
+          "net_over_gross": 0.25666113759700854
+        },
+        "flat_markets_share": 0.2868877818397641,
+        "markets": 158379,
+        "net_over_gross": 0.17316315618234798
+      },
+      "inside_share": 0.05782877823287856,
+      "internal_share_of_group_volume": 0.4821925359614831,
+      "per_wallet": {
+        "flat_share": 0.09863759163856525,
+        "flat_share_by_volume": 0.34144371587853845,
+        "net_over_gross": 0.5832589631941505,
+        "positions": 310186
+      },
+      "touch_share": 0.11992881249720931,
+      "wallets": 120
+    }
+  },
+  "run_at": "2026-10-05T12:42:32.433806+00:00",
+  "script": "a08_self_crossing"
+}

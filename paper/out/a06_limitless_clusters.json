@@ -1,0 +1,67 @@
+{
+  "result": {
+    "between_clusters": {
+      "contracts": 35241.033339,
+      "share_of_fills_touching_either_group": 1.482531475775222e-05,
+      "share_of_fills_within_both_groups": 1.4952078372499439e-05
+    },
+    "clusters": {
+      "9Ns5BaAG2oWJB2C1PgEpHeC3rBXLqJEmZKt7TQi4Nzuw": {
+        "bridged_usdc": 3507967.608337,
+        "inside_contracts": 1899481893.8274858,
+        "inside_share": 0.5896013926714655,
+        "inside_usdc": 1297948005.0434093,
+        "touch_share": 0.5915040646326214,
+        "wallets": 120
+      },
+      "AE2JnkhVsi6Zu1pHCMah2JYjeugCEBiNYDn11q2STb5d": {
+        "bridged_usdc": 1239440.210482,
+        "inside_contracts": 457414955.8521961,
+        "inside_share": 0.14198213516833114,
+        "inside_usdc": 358551112.08379924,
+        "touch_share": 0.14635682761180036,
+        "wallets": 60
+      }
+    },
+    "contracts": 3221637393.393853,
+    "fills": 11799363,
+    "first_fill": "2025-02-07 09:53:25+00:00",
+    "funding": {
+      "by_funder": {
+        "9Ns5 -> 9Ns5 wallets": {
+          "first": "2026-02-18",
+          "last": "2026-06-24",
+          "submitted_by_recipient": 2688,
+          "transfers": 2688,
+          "usdc": 3507967.608337,
+          "wallets": 120
+        },
+        "9Ns5 -> AE2J wallets": {
+          "first": "2026-01-22",
+          "last": "2026-07-16",
+          "submitted_by_recipient": 409,
+          "transfers": 409,
+          "usdc": 984673.210482,
+          "wallets": 60
+        },
+        "AE2J -> AE2J wallets": {
+          "first": "2025-11-28",
+          "last": "2025-12-28",
+          "submitted_by_recipient": 77,
+          "transfers": 77,
+          "usdc": 254767.0,
+          "wallets": 40
+        }
+      },
+      "candidates": 188,
+      "depositors": 2,
+      "funded_wallets": 180,
+      "funders": 2,
+      "min_contracts": 10000000,
+      "min_wallets": 20
+    },
+    "last_fill": "2026-09-28 13:57:03+00:00"
+  },
+  "run_at": "2026-10-05T12:39:55.838219+00:00",
+  "script": "a06_limitless_clusters"
+}

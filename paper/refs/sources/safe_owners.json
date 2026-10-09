@@ -1,0 +1,150 @@
+{
+ "rpc": "https://mainnet.base.org",
+ "calls": "getOwners() 0xa0e67e2b, getThreshold() 0xe75235b8",
+ "safes": {
+  "0x7a0b16d55da33fa6bf1174532f33bba1914fac4c": {
+   "label": "unlabelled; paid by Limitless's fee recipient",
+   "first_transfer": {
+    "block": 38908529,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   },
+   "last_transfer": {
+    "block": 45946888,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   },
+   "end_of_window": {
+    "block": 51907242,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   }
+  },
+  "0xef59e19b2e63661514f9cb002ced51806a66329c": {
+   "label": "Strategy Multisig (limitless.exchange/token)",
+   "first_transfer": {
+    "block": 38908529,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   },
+   "last_transfer": {
+    "block": 45946888,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   },
+   "end_of_window": {
+    "block": 51907242,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   }
+  },
+  "0xe7394bea0e4ed9ddee5b59f80a9e47679d8bce66": {
+   "label": "Investors Multisig (limitless.exchange/token)",
+   "first_transfer": {
+    "block": 38908529,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   },
+   "last_transfer": {
+    "block": 45946888,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   },
+   "end_of_window": {
+    "block": 51907242,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   }
+  },
+  "0xbdfab8ec975166d86c7b4a882ccae95437cdb00e": {
+   "label": "Ecosystem Wallet (limitless.exchange/token)",
+   "first_transfer": {
+    "block": 38908529,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   },
+   "last_transfer": {
+    "block": 45946888,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   },
+   "end_of_window": {
+    "block": 51907242,
+    "owners": [
+     "0x1f3945e6e28c223777953111142fa13ff4e57597",
+     "0xaba6f521fc0113c0fb7b755444a6b2d956931ebc",
+     "0xc41cf6f6731e78b6748e1145737486a11c97eb83",
+     "0xce2759b967f35b7927befc4233ed8e1d36f5d6f2",
+     "0xe75e1a77459b943c6fddf11adf25720e8b3a0dfc"
+    ],
+    "threshold": 3
+   }
+  }
+ }
+}

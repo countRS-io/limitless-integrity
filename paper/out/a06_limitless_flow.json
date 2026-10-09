@@ -1,0 +1,180 @@
+{
+  "result": {
+    "ae2j_before_bridge": {
+      "0xee7a_to_0xb87f": 686997.8,
+      "0xee7a_to_9Ns5_wallets": {
+        "usdc": 3028.41,
+        "wallets": 11
+      },
+      "0xee7a_to_AE2J_wallets": {
+        "usdc": 82087.92,
+        "wallets": 16
+      },
+      "by_sender": {
+        "0x72ab388e2e2f6facef59e3c3fa2c4e29011c2d38": {
+          "first": "2025-09-13",
+          "usdc": 231.9,
+          "wallets": 2
+        },
+        "0xbaed383ede0e5d9d72430661f3285daa77e9439f": {
+          "first": "2025-09-10",
+          "usdc": 8423.59,
+          "wallets": 55
+        },
+        "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055": {
+          "first": "2025-09-13",
+          "usdc": 1690.42,
+          "wallets": 3
+        }
+      },
+      "wallets_funded_before_first_fill": 60
+    },
+    "b87f": {
+      "0x7e07_to_9Ns5": 1678151.802021,
+      "in": 3114997.8053949997,
+      "in_by_sender": {
+        "0x42f4b7ec748e1c858471fb9fb6e147fe66fdba5e": {
+          "transfers": 1,
+          "usdc": 100000.0
+        },
+        "0x7a0310fc4c7cc8a38e9ee99af056417d9f4efc4c": {
+          "transfers": 1,
+          "usdc": 0.0
+        },
+        "0x7a037b2a569178ba4f229324c0252e4d9f4efc4c": {
+          "transfers": 1,
+          "usdc": 0.0
+        },
+        "0x7a037f4fa2eea23437611b8b38f9b8dd9f4efc4c": {
+          "transfers": 1,
+          "usdc": 0.0
+        },
+        "0x7a03c6a77f3e10d15a8e514772fad96d9f4efc4c": {
+          "transfers": 1,
+          "usdc": 0.0
+        },
+        "0x7a03f3c59e4d21b2c60aefc50a7160ed9f4efc4c": {
+          "transfers": 1,
+          "usdc": 0.0
+        },
+        "0x7a0a5a3f534502834dc5d3bbdc90b49a69fdfc4c": {
+          "transfers": 5,
+          "usdc": 0.0
+        },
+        "0x7a0b16d55da33fa6bf1174532f33bba1914fac4c": {
+          "transfers": 15,
+          "usdc": 2298000.0
+        },
+        "0x980d80f4dc08ade2c54094061e04c7f3bcee371f": {
+          "transfers": 1,
+          "usdc": 30000.0
+        },
+        "0x980dbaed6251497ab9ca3b3843afd934b21d371f": {
+          "transfers": 1,
+          "usdc": 0.0
+        },
+        "0xa3bdf9251dc36a5c1d402149f244fde9bcee371f": {
+          "transfers": 1,
+          "usdc": 0.0
+        },
+        "0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055": {
+          "transfers": 17,
+          "usdc": 686997.8
+        }
+      },
+      "out": 3114997.8053949997,
+      "to_0x7e07": 687010.002021
+    },
+    "cluster": {
+      "bridged_usdc": 3507967.608337,
+      "inside_contracts": 1899481893.8274858,
+      "inside_share": 0.5896013926714655,
+      "inside_usdc": 1297948005.0434093,
+      "touch_share": 0.5915040646326214,
+      "wallets": 120
+    },
+    "fees": {
+      "fees_charged_as_maker": 16858577.02,
+      "fees_charged_as_taker": 11835470.79,
+      "maker_fee_refunds_usdc_part": 7304410.27,
+      "net_cost": 2902711.43,
+      "net_cost_per_100_usdc_traded": 0.22292960839296969,
+      "rebates_and_rewards": 8932759.36,
+      "traded_usdc": 1302075328.06
+    },
+    "first_mint_vs_first_fill": {
+      "before_first_fill": 72,
+      "later": 9,
+      "max_hours_after": 42.83777777777778,
+      "median_hours": -0.0975,
+      "wallets": 120,
+      "within_24h_after": 39
+    },
+    "hops": {
+      "0x7e07 -> 9Ns5": {
+        "first": "2026-03-24",
+        "last": "2026-06-24",
+        "transfers": 66,
+        "usdc": 1678151.802021
+      },
+      "0x88ea -> Safe 0x7a0b": {
+        "first": "2025-12-01",
+        "last": "2026-05-13",
+        "transfers": 92,
+        "usdc": 3287212.3058039993
+      },
+      "0xb87f -> CCTP TokenMessengerV2": {
+        "first": "2026-01-22",
+        "last": "2026-03-13",
+        "transfers": 18,
+        "usdc": 2377987.803374
+      },
+      "9Ns5 -> AE2J wallets": {
+        "first": "2026-01-22",
+        "last": "2026-07-16",
+        "transfers": 409,
+        "usdc": 984673.210482,
+        "wallets": 60
+      },
+      "9Ns5 -> wallets": {
+        "first": "2026-02-18",
+        "first_set_usdc": 1851188.102893,
+        "last": "2026-06-24",
+        "second_set_usdc": 1656779.505444,
+        "transfers": 2688,
+        "usdc": 3507967.608337,
+        "wallets": 120
+      },
+      "Safe 0x7a0b -> 0xb87f": {
+        "first": "2026-01-21",
+        "last": "2026-03-13",
+        "transfers": 15,
+        "usdc": 2298000.0
+      },
+      "wallets -> 9Ns5 (returned)": {
+        "first": "2026-05-29",
+        "last": "2026-06-02",
+        "transfers": 162,
+        "usdc": 480627.818251,
+        "wallets": 49,
+        "wallets_in_second_set": 49
+      }
+    },
+    "into_9Ns5": 4546287.423646,
+    "into_9Ns5_by_sender": {
+      "0x75f7a9c91646e866f964823bb3dcba791f49f236": 3207.0,
+      "0x7e07a9148e9149e430c6412b79a675028595ff1f": 1678151.8,
+      "0xb87f6670c965be9ecda4f5c8bfa7f5576658ed33": 2377987.8,
+      "0xe6668ccc790b0ae310d245c8b166bdd38227d362": 3033.0,
+      "0xec097ecbd4de9bcb4a563dd253ad29276b608645": 3280.0,
+      "cluster wallets": 480627.82
+    },
+    "venue_contracts": 3221637393.393853,
+    "window": [
+      "2025-02-07",
+      "2026-09-28"
+    ]
+  },
+  "run_at": "2026-10-05T12:43:29.422211+00:00",
+  "script": "a06_limitless_flow"
+}
